@@ -1,0 +1,146 @@
+/* General Styling Start */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.bg-lightgray{
+  background: #F8F9FA !important;
+}
+
+.w-20{
+  width: 20% !important;
+}
+.w-30{
+  width: 30% !important;
+}
+.w-40{
+  width: 40% !important;
+}
+.w-50 {
+  width: 50% !important;
+}
+
+.w-60 {
+  width: 60% !important;
+}
+
+.w-70 {
+  width: 70% !important;
+}
+
+/* General Styling End */
+
+/* Portfolio Section Start */
+.portfolio-bg.text-center.d-flex.flex-column.align-items-center.justify-content-center{
+  display: none !important;
+}
+
+.card.mb-5.position-relative:hover .portfolio-bg.text-center.d-flex.flex-column.align-items-center.justify-content-center i {
+  position: absolute;
+  top: 50%;
+  right: 40%;
+  transform: translateY(-50%);
+  margin: 0 auto;
+  text-align: center;
+  
+}
+.position-relative.overflow-hidden .portfolio-bg.text-center.d-flex.flex-column.align-items-center.justify-content-center.d-none{
+  transition: 0.3s ease-in-out;
+}
+.portfolio-bg.text-center.d-flex.flex-column.align-items-center.justify-content-center{
+  transition: 0.3s ease-in-out;
+}
+
+
+.card.mb-5.position-relative:hover .portfolio-bg.text-center.d-flex.flex-column.align-items-center.justify-content-center{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: block !important;
+  background: rgba(255, 200, 0, 0.9);
+  transition: 0.3s ease-in-out !important;
+  cursor: pointer;
+} 
+
+
+
+
+
+
+
+
+
+
+/* Portfolio Section End */
+
+
+
+/* Our Amazing team Section Start */
+.rounded-circle{
+  width: 14rem;
+  height: 14rem;
+  border: 0.5rem solid rgba(0, 0, 0, 0.1);
+}
+
+
+.text-muted,
+.text-muted.mt-4,
+.fst-italic.text-muted,
+.card-text.fst-italic.text-muted
+{
+  font-family: 'Roboto Slab', serif !important;
+}
+
+
+.icon-holder.d-flex.justify-content-center.align-items-center{
+  background: #212529;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.icon-holder.d-flex.justify-content-center.align-items-center:hover{
+  cursor: pointer;
+}
+
+.icon-holder.d-flex.justify-content-center.align-items-center:focus{
+  background: red !important;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 3px solid red !important;
+  
+
+}
+
+.text-muted.mt-4.text-center{
+  max-width: 750px;
+  margin:0 auto;
+
+}
+
+/* Our Amazing team Section Start */
+
+/* Media Queries */
+
+@media screen and (max-width: 576px){
+  .w-60{
+    width: 40% !important;
+  }
+  .w-30{
+    margin-top: 0.5rem;
+    width: 25% !important;
+  }
+}
